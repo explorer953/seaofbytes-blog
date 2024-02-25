@@ -1,0 +1,67 @@
+baseURL: https://seaofbytes.com/
+languageCode: en-us
+title: Arnau Ortega
+theme: mini
+
+# Custom theme settings
+defaultContentLanguage: en
+
+permalinks:
+  posts: /posts/:title/
+
+paginate: 50
+
+# Hugo Configure Markup
+# More info: https://gohugo.io/getting-started/configuration-markup#
+markup:
+  highlight:
+    # guessSyntax: true 
+    # style: emacs
+    codeFences: true
+    guessSyntax: true
+    style: friendly
+  tableOfContents:
+    endLevel: 5
+    ordered: false
+    startLevel: 2
+  # needed to render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
+  # goldmark:
+  #   renderer:
+  #     unsafe: true
+
+
+params:
+  # Site Author
+  author: Arnau Ortega
+  # Author biography
+  bio: Cybersecurity blog
+  # Site Description, used in HTML meat
+  description: Cybersecurity blog
+
+
+
+
+  enableRSS: false
+  enableComments: false
+  enableGoogleAnalytics: false
+  showToc: true
+  showPowerBy: false
+  math: false
+  hiddenPostSummaryInHomePage: false
+  tags: false
+
+  # Extra links in navigation
+  links:
+    ## e.g.
+    # - name: Project
+    #   path: /project
+
+  # You can put your custom css and js to `static` directory, or use remote css and js files which start with `http://` or `https://`
+  customCSS:
+    ## e.g.
+    # - css/custom.css # local css in `static/css/custom.css`
+    # - https://example.com/custom.css # remote css
+  customJS:
+    ## e.g.
+    # - js/custom.js # local js in `static/js/custom.js`
+    # - https://example.com/custom.js # remote js
