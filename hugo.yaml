@@ -1,6 +1,6 @@
 baseURL: https://seaofbytes.com/
 languageCode: en-us
-title: Arnau Ortega
+title: AAA
 theme: mini
 
 # Custom theme settings
@@ -32,11 +32,11 @@ markup:
 
 params:
   # Site Author
-  author: Arnau Ortega
+  author: AAA
   # Author biography
-  bio: Cybersecurity blog
+  bio: BBB
   # Site Description, used in HTML meat
-  description: Cybersecurity blog
+  description: BBB
 
 
 
