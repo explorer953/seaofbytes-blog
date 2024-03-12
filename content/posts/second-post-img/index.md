@@ -19,5 +19,3 @@ bbbb. This is also `code`.
 ```
 Byte of code
 ```
-
-![Alt text](image-1.png)
